@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">강의 9장</string>
+
+    <string name="main_btn_exam01">예제1 (8~10 기본 그래픽)</string>
+    <string name="main_btn_exam02">예제2 (11~12 직접 풀어보기 9-1)</string>
+    <string name="main_btn_exam03">예제3 (14~27 실습9-1 간단 그림판 앱 만들기)</string>
+    <string name="main_btn_exam04">예제4 (31~32 비트맵의 기본)</string>
+    <string name="main_btn_exam05">예제5 (33~35 이미지의 기하학적 변환)</string>
+    <string name="main_btn_exam06">예제6 (36~38 이미지 활용. 블러링)</string>
+    <string name="main_btn_exam07">예제7 (43~44 이미지 활용. 색상대비)</string>
+    <string name="main_btn_exam08">예제8 (45~66 실습9-2 미니 포토샵 앱 만들기)</string>
+    <string name="main_btn_exam09">예제9 (67~71 실습9-2 수정버전 9-3)</string>
+
+    <string name="main_btn_prac01">연습문제5번 (76)</string>
+    <string name="main_btn_prac02">연습문제6번 (78)</string>
+</resources>

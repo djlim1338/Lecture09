@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/main_btn_exam01"
+                android:text="@string/main_btn_exam01"
+                android:onClick="btnChecked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/main_btn_exam02"
+                android:text="@string/main_btn_exam02"
+                android:onClick="btnChecked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/main_btn_exam03"
+                android:text="@string/main_btn_exam03"
+                android:onClick="btnChecked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/main_btn_exam04"
+                android:text="@string/main_btn_exam04"
+                android:onClick="btnChecked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/main_btn_exam05"
+                android:text="@string/main_btn_exam05"
+                android:onClick="btnChecked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/main_btn_exam06"
+                android:text="@string/main_btn_exam06"
+                android:onClick="btnChecked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/main_btn_exam07"
+                android:text="@string/main_btn_exam07"
+                android:onClick="btnChecked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/main_btn_exam08"
+                android:text="@string/main_btn_exam08"
+                android:onClick="btnChecked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/main_btn_exam09"
+                android:text="@string/main_btn_exam09"
+                android:onClick="btnChecked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/main_btn_prac01"
+                android:text="@string/main_btn_prac01"
+                android:onClick="btnChecked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/main_btn_prac02"
+                android:text="@string/main_btn_prac02"
+                android:onClick="btnChecked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

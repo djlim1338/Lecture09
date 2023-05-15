@@ -26,13 +26,15 @@ public class Prac02 extends AppCompatActivity {
     static List<MyShape> myshape = new ArrayList<MyShape>();
     static boolean isFinish = false; // ACTION_UP
 
+    static MyGraphicView mgv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.drawable.cad);
-        setContentView(R.layout.activity_prac02);
+        mgv = new MyGraphicView(this);
+        setContentView(mgv);
         setTitle("연습문제9-6");
     }
 
@@ -46,6 +48,7 @@ public class Prac02 extends AppCompatActivity {
         sMenu.add(0, 4, 0, "빨강");
         sMenu.add(0, 5, 0, "초록");
         sMenu.add(0, 6, 0, "파랑");
+        menu.add(0, 7, 0, "전부 지우기");
         return true;
     }
 
@@ -57,6 +60,7 @@ public class Prac02 extends AppCompatActivity {
                 return true;
             case 2:
                 curShape = CIRCLE; // 원 return true;
+                return true;
             case 3:
                 curShape = RECTANGLE; // 사각형
                 return true;
@@ -68,6 +72,11 @@ public class Prac02 extends AppCompatActivity {
                 return true;
             case 6:
                 curColor = Color.BLUE;
+                return true;
+            case 7:
+                curColor = Color.BLUE;
+                myshape.clear();
+                mgv.invalidate();
                 return true;
         }
         return super.onOptionsItemSelected(item);
